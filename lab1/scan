@@ -1,0 +1,169 @@
+root@root:~/Desktop/cpre539# nmap -sn 52.135.80.1/24
+Starting Nmap 7.70 ( https://nmap.org ) at 2025-02-21 14:16 CST
+Nmap scan report for 52.135.80.110
+Host is up (0.00095s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 52.135.80.210
+Host is up (0.00072s latency).
+Not shown: 982 closed ports
+PORT      STATE    SERVICE       VERSION
+13/tcp    open     daytime       Tardis 2000 daytime
+37/tcp    open     time          (32 bits)
+135/tcp   open     msrpc         Microsoft Windows RPC
+139/tcp   open     netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open     microsoft-ds  Microsoft Windows 2003 or 2008 microsoft-ds
+1025/tcp  open     msrpc         Microsoft Windows RPC
+3389/tcp  open     ms-wbt-server Microsoft Terminal Service
+60020/tcp filtered unknown
+60443/tcp filtered unknown
+61532/tcp filtered unknown
+61900/tcp filtered unknown
+62078/tcp filtered iphone-sync
+63331/tcp filtered unknown
+64623/tcp filtered unknown
+64680/tcp filtered unknown
+65000/tcp filtered unknown
+65129/tcp filtered unknown
+65389/tcp filtered unknown
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2003
+
+Nmap scan report for 52.135.80.254
+Host is up (0.00038s latency).
+Not shown: 996 filtered ports
+PORT    STATE SERVICE   VERSION
+22/tcp  open  ssh       OpenSSH 7.9 (protocol 2.0)
+53/tcp  open  domain    (generic dns response: NOTIMP)
+80/tcp  open  http      nginx
+443/tcp open  ssl/https nginx
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.70%I=7%D=2/21%Time=67B8DF9D%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,20,"\0\x1e\0\x06\x81\x85\0\x01\0\0\0\0\0\0\x07version\
+SF:x04bind\0\0\x10\0\x03")%r(DNSStatusRequestTCP,E,"\0\x0c\0\0\x90\x04\0\0
+SF:\0\0\0\0\0\0");
+
+root@root:~/Desktop/cpre539# nmap -sn 6.87.151.1/24
+Nmap scan report for 6.87.151.110
+Host is up (0.0010s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 6.87.151.210
+Host is up (0.00068s latency).
+Not shown: 984 closed ports
+PORT      STATE    SERVICE      VERSION
+135/tcp   open     msrpc        Microsoft Windows RPC
+139/tcp   open     netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open     microsoft-ds Microsoft Windows XP microsoft-ds
+2638/tcp  open     sybase?
+6002/tcp  open     http         SafeNet Sentinel Protection Server 7.3
+60020/tcp filtered unknown
+60443/tcp filtered unknown
+61532/tcp filtered unknown
+61900/tcp filtered unknown
+62078/tcp filtered iphone-sync
+63331/tcp filtered unknown
+64623/tcp filtered unknown
+64680/tcp filtered unknown
+65000/tcp filtered unknown
+65129/tcp filtered unknown
+65389/tcp filtered unknown
+Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+
+Nmap scan report for 6.87.151.254
+Host is up (0.00037s latency).
+Not shown: 996 filtered ports
+PORT    STATE SERVICE   VERSION
+22/tcp  open  ssh       OpenSSH 7.9 (protocol 2.0)
+53/tcp  open  domain    (generic dns response: NOTIMP)
+80/tcp  open  http      nginx
+443/tcp open  ssl/https nginx
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.70%I=7%D=2/21%Time=67B8DF9D%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,20,"\0\x1e\0\x06\x81\x85\0\x01\0\0\0\0\0\0\x07version\
+SF:x04bind\0\0\x10\0\x03")%r(DNSStatusRequestTCP,E,"\0\x0c\0\0\x90\x04\0\0
+SF:\0\0\0\0\0\0");
+
+root@root:~/Desktop/cpre539# nmap -sn 6.87.152.1/24
+Nmap scan report for 6.87.152.1
+Host is up (0.00086s latency).
+Not shown: 999 filtered ports
+PORT    STATE  SERVICE VERSION
+179/tcp closed bgp
+
+Nmap scan report for 6.87.152.110
+Host is up (0.0015s latency).
+All 1000 scanned ports on 6.87.152.110 are filtered
+
+Nmap scan report for 6.87.152.210
+Host is up (0.0020s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+2638/tcp open  sybase?
+6002/tcp open  X11:2?
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 6.87.152.254
+Host is up (0.00038s latency).
+Not shown: 996 filtered ports
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 7.9 (protocol 2.0)
+53/tcp  open  domain  (generic dns response: NOTIMP)
+80/tcp  open  http    nginx
+443/tcp open  https   nginx
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.70%I=7%D=2/21%Time=67B8DFA8%P=x86_64-pc-linux-gnu%r(DNSS
+SF:tatusRequestTCP,E,"\0\x0c\0\0\x90\x04\0\0\0\0\0\0\0\0");
+
+root@root:~/Desktop/cpre539# nmap -sn 6.87.153.1/24
+Nmap scan report for 6.87.153.110
+Host is up (0.00076s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 6.87.153.210
+Host is up (0.00050s latency).
+Not shown: 984 closed ports
+PORT      STATE    SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+139/tcp   open     netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open     microsoft-ds?
+2638/tcp  open     sybase?
+6002/tcp  open     X11:2?
+60020/tcp filtered unknown
+60443/tcp filtered unknown
+61532/tcp filtered unknown
+61900/tcp filtered unknown
+62078/tcp filtered iphone-sync
+63331/tcp filtered unknown
+64623/tcp filtered unknown
+64680/tcp filtered unknown
+65000/tcp filtered unknown
+65129/tcp filtered unknown
+65389/tcp filtered unknown
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 6.87.153.254
+Host is up (0.00036s latency).
+Not shown: 996 filtered ports
+PORT    STATE SERVICE    VERSION
+22/tcp  open  ssh?
+53/tcp  open  domain     (generic dns response: NOTIMP)
+80/tcp  open  http       nginx
+443/tcp open  tcpwrapped
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.70%I=7%D=2/21%Time=67B8DFA8%P=x86_64-pc-linux-gnu%r(DNSS
+SF:tatusRequestTCP,E,"\0\x0c\0\0\x90\x04\0\0\0\0\0\0\0\0");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 13 IP addresses (13 hosts up) scanned in 263.70 seconds

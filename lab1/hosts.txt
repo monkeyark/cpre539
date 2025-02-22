@@ -1,0 +1,43 @@
+root@root:~/Desktop/lab1# nmap -sn 52.135.80.1/24
+Starting Nmap 7.70 ( https://nmap.org ) at 2025-02-20 20:41 CST
+Nmap scan report for 52.135.80.110
+Host is up (0.00085s latency).
+Nmap scan report for 52.135.80.210
+Host is up (0.0011s latency).
+Nmap scan report for 52.135.80.254
+Host is up (0.00073s latency).
+Nmap done: 256 IP addresses (3 hosts up) scanned in 31.64 seconds
+
+root@root:~/Desktop/lab1# nmap -sn 6.87.151.1/24
+Starting Nmap 7.70 ( https://nmap.org ) at 2025-02-20 21:02 CST
+Nmap scan report for 6.87.151.110
+Host is up (0.00089s latency).
+Nmap scan report for 6.87.151.210
+Host is up (0.0013s latency).
+Nmap scan report for 6.87.151.254
+Host is up (0.00084s latency).
+Nmap done: 256 IP addresses (3 hosts up) scanned in 31.74 seconds
+
+root@root:~/Desktop/lab1# nmap -sn 6.87.152.1/24
+Starting Nmap 7.70 ( https://nmap.org ) at 2025-02-20 21:23 CST
+Nmap scan report for 6.87.152.1
+Host is up (0.0011s latency).
+Nmap scan report for 6.87.152.110
+Host is up (0.0014s latency).
+Nmap scan report for 6.87.152.210
+Host is up (0.0021s latency).
+Nmap scan report for 6.87.152.254
+Host is up (0.00040s latency).
+Nmap done: 256 IP addresses (4 hosts up) scanned in 3.68 seconds
+
+root@root:~/Desktop/lab1# nmap -sn 6.87.153.1/24
+Starting Nmap 7.70 ( https://nmap.org ) at 2025-02-20 21:23 CST
+Nmap scan report for 6.87.153.110
+Host is up (0.00080s latency).
+Nmap scan report for 6.87.153.210
+Host is up (0.00093s latency).
+Nmap scan report for 6.87.153.254
+Host is up (0.00059s latency).
+Nmap done: 256 IP addresses (3 hosts up) scanned in 31.70 seconds
+
+
